@@ -11,10 +11,10 @@
             {
                 Console.WriteLine("Valid Triangle");
             }
-            else 
+            else
             {
                 Console.WriteLine("Invalid Triangle");
             }
-                }
-            }
         }
+    }
+}

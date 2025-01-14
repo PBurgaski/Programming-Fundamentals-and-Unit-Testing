@@ -5,10 +5,12 @@
         static void Main(string[] args)
         {
             int num = int.Parse(Console.ReadLine());
-            if (num == 1) {
+            if (num == 1)
+            {
                 Console.WriteLine("one");
             }
-            else {
+            else
+            {
                 if (num == 2)
                 {
                     Console.WriteLine("two");
@@ -17,10 +19,12 @@
                 {
                     Console.WriteLine("three");
                 }
-                else if (num == 4) {
+                else if (num == 4)
+                {
                     Console.WriteLine("four");
                 }
-                else if (num == 5) {
+                else if (num == 5)
+                {
                     Console.WriteLine("five");
                 }
                 else if (num == 6)
