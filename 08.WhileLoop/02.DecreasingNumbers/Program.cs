@@ -5,7 +5,7 @@
         static void Main(string[] args)
         { //Input
             int number = int.Parse(Console.ReadLine());
-            //Calculations
+            //Calculation
             while (number >= 1)
             {
                 Console.WriteLine(number); //Output
