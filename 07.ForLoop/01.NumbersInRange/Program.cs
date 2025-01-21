@@ -7,7 +7,7 @@
             //Input
             int firstNumber = int.Parse(Console.ReadLine());
             int secondNumber = int.Parse(Console.ReadLine());
-            //Calculations
+            //Calculation
             for (int i = firstNumber; i <= secondNumber; i++)
             {
                 //Output
