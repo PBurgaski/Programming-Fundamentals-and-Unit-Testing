@@ -6,7 +6,7 @@
         { //Input
             int num = int.Parse(Console.ReadLine());
             string result = "null";
-            // Calculations
+            // Calculation
             if (num == 0)
             {
                 result = "zero";
