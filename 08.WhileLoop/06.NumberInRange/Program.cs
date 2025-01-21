@@ -16,7 +16,7 @@
                 }
                 else
                 {
-                    number = int.Parse(Console.ReadLine());
+                    number = int.Parse(Console.ReadLine()); //Output
                 }
             }
         }

@@ -11,7 +11,7 @@
             while (start >= number)
             {
                 Console.WriteLine(number); //Output
-                number = (number * 2) +1;
+                number = number * 2 +1;
             }
         }
     }
