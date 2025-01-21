@@ -1,10 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.FreezingWeather", "04.SimpleConditionalStatements\01.FreezingWeather.csproj", "{B6B739F0-E969-4A23-AE02-642AB25A6479}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.EvenOrOdd", "02.EvenOrOdd\02.EvenOrOdd.csproj", "{674C190C-6C2D-45D9-92BF-4371B9FE253E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Number1…9AsWords", "03.Number1…9AsWords\03.Number1…9AsWords.csproj", "{93B04534-44AA-4959-9496-BD0492D3FE77}"
@@ -21,16 +19,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.TicketPrice", "08.Ticket
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.ValidTriangle", "09.ValidTriangle\09.ValidTriangle.csproj", "{A1B4FC16-3FC6-4204-A18D-33296D544964}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.FreezingWeather", "01.FreezingWeather\01.FreezingWeather.csproj", "{BA272C48-BAFC-4201-9C2B-D37FCC87234E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B6B739F0-E969-4A23-AE02-642AB25A6479}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B6B739F0-E969-4A23-AE02-642AB25A6479}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B6B739F0-E969-4A23-AE02-642AB25A6479}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B6B739F0-E969-4A23-AE02-642AB25A6479}.Release|Any CPU.Build.0 = Release|Any CPU
 		{674C190C-6C2D-45D9-92BF-4371B9FE253E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{674C190C-6C2D-45D9-92BF-4371B9FE253E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{674C190C-6C2D-45D9-92BF-4371B9FE253E}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -63,6 +59,10 @@ Global
 		{A1B4FC16-3FC6-4204-A18D-33296D544964}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1B4FC16-3FC6-4204-A18D-33296D544964}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1B4FC16-3FC6-4204-A18D-33296D544964}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA272C48-BAFC-4201-9C2B-D37FCC87234E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA272C48-BAFC-4201-9C2B-D37FCC87234E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA272C48-BAFC-4201-9C2B-D37FCC87234E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA272C48-BAFC-4201-9C2B-D37FCC87234E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
