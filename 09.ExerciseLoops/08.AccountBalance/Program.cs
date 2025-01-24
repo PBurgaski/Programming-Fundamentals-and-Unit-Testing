@@ -18,7 +18,8 @@
 
                 if (money < 0)
                 {
-                    balance += money;
+                    money = money - money - money;
+                    balance -= money;
                     Console.WriteLine($"Decrease: {money:F2}");
                 }
                 else if (money > 0)

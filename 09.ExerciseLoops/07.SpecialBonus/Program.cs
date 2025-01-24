@@ -12,7 +12,6 @@
             {
                 if (stopNumber == number)
                 {
-
                     break;
                 }
                 memory = number;
