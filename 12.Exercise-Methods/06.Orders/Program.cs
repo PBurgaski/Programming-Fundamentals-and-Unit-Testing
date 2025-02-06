@@ -1,5 +1,4 @@
-﻿
-namespace _06.Orders
+﻿namespace _06.Orders
 {
     internal class Program
     {
