@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>MyFirstLibrary</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>PetarBurgaski</Authors>
+    <Description>Library with useful array commands.</Description>
+    <Tags>arrays utility library</Tags>
+  </PropertyGroup>
+
+</Project>
