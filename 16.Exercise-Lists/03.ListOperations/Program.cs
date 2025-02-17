@@ -50,21 +50,23 @@ namespace _03.ListOperations
                 }
                 else if (command == "Shift")
                 {
+                    int count = int.Parse(input[2]);
+                    count %= numbers.Count;
                     if (shiftDirection == "left")
                     {
-                        ShiftInLeft(numbers, int.Parse(input[2]));
+                        ShiftInLeft(numbers, count);
                         continue;
                     }
                     else if (shiftDirection == "right")
                     {
-                        ShiftInRight(numbers, int.Parse(input[2]));
+                        ShiftInRight(numbers, count);
                         continue;
                     }
                 }
 
             }
-                //Output
-                Console.WriteLine(string.Join(" ", numbers));
+            //Output
+            Console.WriteLine(string.Join(" ", numbers));
         }
         public static void ShiftInLeft(List<int> numbers, int countOfShifts)
         {
