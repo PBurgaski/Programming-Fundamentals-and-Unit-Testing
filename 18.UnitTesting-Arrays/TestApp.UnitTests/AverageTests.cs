@@ -14,12 +14,13 @@ public class AverageTests
         {
             42
         };
+        int expected = 42;
 
         // Act
         double result = Average.CalculateAverage(array);
 
         // Assert
-        Assert.That(result, Is.EqualTo(42));
+        Assert.That(result, Is.EqualTo(expected));
     }
 
     [Test]
@@ -30,12 +31,13 @@ public class AverageTests
         {
             25, 25, 25, 25
         };
+        int expected = 25;
 
         // Act
         double result = Average.CalculateAverage(array);
 
         // Assert
-        Assert.That(result, Is.EqualTo(25));
+        Assert.That(result, Is.EqualTo(expected));
     }
 
     [Test]
@@ -46,11 +48,13 @@ public class AverageTests
         {
             -20, -20, -20, -20, -20
         };
+        int expected = -20;
+
         // Act
         double result = Average.CalculateAverage(array);
 
         // Assert
-        Assert.That(result, Is.EqualTo(-20));
+        Assert.That(result, Is.EqualTo(expected));
     }
 
     [Test]
@@ -61,10 +65,12 @@ public class AverageTests
         {
             -20, 25, -20, 25, -20, 25, -20, 25, -20, 3, 30
         };
+        int expected = 3;
+
         // Act
         double result = Average.CalculateAverage(array);
 
         // Assert
-        Assert.That(result, Is.EqualTo(3));
+        Assert.That(result, Is.EqualTo(expected));
     }
 }

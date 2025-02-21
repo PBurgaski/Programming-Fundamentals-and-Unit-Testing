@@ -26,11 +26,13 @@ public class EvenOddSubtractionTests
         {
             2, 4, 6, 8
         };
+        int expected = 20;
+
         // Act
         int result = EvenOddSubtraction.FindDifference(onlyEvenNumsInArr);
 
         // Assert
-        Assert.That(result, Is.EqualTo(20));
+        Assert.That(result, Is.EqualTo(expected));
     }
 
     [Test]
@@ -41,11 +43,13 @@ public class EvenOddSubtractionTests
         {
             1, 3, 5, 7, 9
         };
+        int expected = 25;
+
         // Act
         int result = EvenOddSubtraction.FindDifference(onlyOddNumsInArr);
 
         // Assert
-        Assert.That(result, Is.EqualTo(-25));
+        Assert.That(result, Is.EqualTo(expected));
     }
 
     [Test]
@@ -56,9 +60,12 @@ public class EvenOddSubtractionTests
         {
             1, 2, 3, 4, 5, 6, 7, 8, 9
         };
+        int expected = 5;
+
         // Act
         int result = EvenOddSubtraction.FindDifference(mixedNumsInArr);
+
         // Assert
-        Assert.That(result, Is.EqualTo(-5));
+        Assert.That(result, Is.EqualTo(expected));
     }
 }

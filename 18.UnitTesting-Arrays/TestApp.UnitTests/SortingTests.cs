@@ -14,9 +14,11 @@ public class SortingTests
     {
         // Arrange
         double[] emptyArr = Array.Empty<double>();
+        double[] expected = Array.Empty<double>();
+
         // Act
         double[] result = Sorting.ShallowAscendingSort(emptyArr);
-        double[] expected = Array.Empty<double>();
+
         // Assert
         Assert.That(result, Is.EqualTo(expected));
 
@@ -27,9 +29,11 @@ public class SortingTests
     {
         // Arrange
         double[] emptyArr = Array.Empty<double>();
+        double[] expected = Array.Empty<double>();
+
         // Act
         double[] result = Sorting.DeepAscendingSort(emptyArr);
-        double[] expected = Array.Empty<double>();
+
         // Assert
         Assert.That(result, Is.EqualTo(expected));
     }
@@ -42,12 +46,14 @@ public class SortingTests
         {
             3.14, 69.9, 25.55
         };
-        // Act
-        double[] result = Sorting.ShallowAscendingSort(unorderedNumsInArr);
         double[] expected = new double[]
         {
             3.14, 25.55, 69.9
         };
+
+        // Act
+        double[] result = Sorting.ShallowAscendingSort(unorderedNumsInArr);
+
         // Assert
         Assert.That(result, Is.EqualTo(expected));
     }
@@ -60,12 +66,14 @@ public class SortingTests
         {
             3.14, 69.9, 25.55
         };
-        // Act
-        double[] result = Sorting.DeepAscendingSort(unorderedNumsInArr);
         double[] expected = new double[]
         {
             3.14, 25.55, 69.9
-        }; 
+        };
+        
+        // Act
+        double[] result = Sorting.DeepAscendingSort(unorderedNumsInArr);
+
         // Assert
         Assert.That(result, Is.EqualTo(expected));
     }

@@ -26,11 +26,16 @@ public class ReverseTests
         { 
             42 
         };
+        int[] expected = new int[]
+        {
+            42
+        };
+
         // Act
         string result = Reverse.ReverseArray(singleElementArr);
 
         // Assert
-        Assert.That(result, Is.EqualTo("42"));
+        Assert.That(result, Is.EqualTo(string.Join(" ", expected)));
     }
 
     [Test]
@@ -41,10 +46,16 @@ public class ReverseTests
         {
             10, 20, 30, 40, 50
         };
+        int[] expected = new int[]
+        {
+            50, 40, 30, 20, 10
+        };
+
         // Act
         string result = Reverse.ReverseArray(multipleElementsArr);
+
         // Assert
-        Assert.That(result, Is.EqualTo("50 40 30 20 10"));
+        Assert.That(result, Is.EqualTo(string.Join(" ", expected)));
 
     }
 }

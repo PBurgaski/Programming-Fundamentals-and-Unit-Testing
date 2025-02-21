@@ -88,12 +88,12 @@ public class PrimeNumberFinderTests
         {
               3, 4, 5, 6
         };
-        // Act
         int[] expected = new int[]
-{
+        {
             3, 5
-};
+        };
 
+        // Act
         int[] result = PrimeNumberFinder.GetAllPrimeNumbers(mixedNumsInArr);
 
         // Assert 

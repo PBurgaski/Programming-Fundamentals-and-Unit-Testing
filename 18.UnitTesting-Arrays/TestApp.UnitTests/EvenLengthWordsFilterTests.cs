@@ -14,8 +14,10 @@ public class EvenLengthWordsFilterTests
     {
         // Arrange
         string[] emptyArr = Array.Empty<string>();
+
         // Act
         string result = EvenLengthWordsFilter.GetEvenWords(emptyArr);
+
         // Assert
         Assert.That(result, Is.Empty);
     }
@@ -28,8 +30,10 @@ public class EvenLengthWordsFilterTests
         {
             "updated"
         };
+
         // Act
         string result = EvenLengthWordsFilter.GetEvenWords(singleOddWordInArr);
+
         // Assert
         Assert.That(result, Is.Empty);
     }
@@ -42,8 +46,10 @@ public class EvenLengthWordsFilterTests
         {
              "Sofia", "Varna", "Plovdiv"
         };
+
         // Act
         string result = EvenLengthWordsFilter.GetEvenWords(oddWordsInArr);
+
         // Assert
         Assert.That(result, Is.Empty);
     }
@@ -56,10 +62,13 @@ public class EvenLengthWordsFilterTests
         {
             "Burgaski"
         };
+        string expected = "Burgaski";
+
         // Act
         string result = EvenLengthWordsFilter.GetEvenWords(singleEvenWordInArr);
+
         // Assert
-        Assert.That(result, Is.EqualTo("Burgaski"));
+        Assert.That(result, Is.EqualTo(expected));
     }
 
     [Test]
@@ -70,10 +79,13 @@ public class EvenLengthWordsFilterTests
         {
             "Burgaski", "is", "good", "in", "testing.", "lek"
         };
+        string expected = "Burgaski is good in testing.";
+
         // Act
         string result = EvenLengthWordsFilter.GetEvenWords(evenAndOddWordsInArr);
+
         // Assert
-        Assert.That(result, Is.EqualTo("Burgaski is good in testing."));
+        Assert.That(result, Is.EqualTo(expected));
     }
 }
 
